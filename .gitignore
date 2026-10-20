@@ -1,0 +1,30 @@
+# Ambiente Virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Caches do Python e Compilações
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches de Testes e Cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Caches do Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Arquivos do Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos temporários de dados (caso gere dumps intermediários)
+data/processed/*.tmp
+data/raw/vision/**/*.tmp
